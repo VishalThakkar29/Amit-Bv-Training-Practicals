@@ -1,0 +1,24 @@
+.con {
+  margin: 3rem auto;
+  text-align: center;
+  background-color: rgb(190, 180, 166);
+  height: 300px;
+  width: 500px;
+}
+
+.list {
+  margin: 20px;
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+
+  list-style: none;
+}
+.listItem:hover {
+  font-size: 30px;
+}
+
+.header {
+  font-size: 30px;
+}

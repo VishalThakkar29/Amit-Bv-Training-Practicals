@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+body {
+  display: flex;
+}
+.container {
+  height: 100vh;
+  width: 30%;
+}
+
+#map {
+  height: 100vh;
+  width: 70%;
+}

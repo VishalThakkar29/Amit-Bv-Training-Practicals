@@ -1,0 +1,161 @@
+body{
+    /* background-color: rgb(190 208 213); */
+    
+}
+h1{
+    text-align: center;
+    color: rgb(15, 10, 10);
+}
+.container{
+    width: 980px;
+    background-image: linear-gradient( to top,rgb(136, 136, 136),rgb(196, 212, 170));
+
+   
+     margin-left: 130px; 
+    /* margin-right: 150px;  */
+    background-color: rgb(218 227 220);
+    
+}
+
+
+.navelement{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+nav li{
+    list-style: none;
+    /* float: left; */
+    display: inline;
+   
+  
+    
+}
+/* @media  screen and (max-width:700px) {
+    .nav element {
+        display: flex;
+        flex-direction: column;
+    }
+    }  */
+    
+
+nav  a{
+    /* text-decoration: none;
+    border: 1px solid rgb(226, 226, 240);
+    padding: 5px;
+    color: rgb(46, 44, 44);
+    background-color: rgb(240, 198, 198); */
+    text-decoration: none;
+    border: 1px solid rgb(226, 226, 240);
+
+    color: rgb(46, 44, 44);
+    background-color: rgb(200 211 199);
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 10px;
+
+
+ 
+    
+}
+.navelement ul li a:hover{
+    text-decoration: none;
+    border: 1px solid rgb(226, 226, 240);
+    padding: 7px;
+    letter-spacing: 2px;
+    background-color: aqua;
+
+
+    
+}
+img{
+
+    
+    height: 250px; 
+ width: 100%;
+   background-image: cover;
+   
+}
+img:hover{
+    transform: scale(2);
+    transition-duration: 3s;
+
+}
+.mainpage p{
+    margin-block-end: 0px;
+}
+
+.main{
+    border-top: 2px solid rgb(19, 18, 18);
+    
+  
+}
+
+
+.mainpage{
+    width:50%;
+   text-align: justify;
+   float: left;
+   height: 380px;
+}
+.sidebar{
+    width: 45%;
+    height: 400px;
+    float: left;
+   padding-left: 10px;
+   text-align: justify;
+   /* background-color: rgb(186, 197, 177); */
+   margin-left: 5px;
+}
+.footer{
+    /* border-top: 1px solid black; */
+    text-align: center;
+    background-color: #9a9f95;
+}
+.fix{
+    clear: both;
+}
+.img-banner{
+    position: relative;
+    top: 15px;
+    left: 5px;
+    overflow: hidden;
+
+}
+.banner-description{
+    position: absolute;
+    bottom:3px;
+    left: 70px;
+    color: rgb(17, 19, 16);
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic; 
+    transform: translateY(100%);
+    transition-property: all;
+    transition-duration: 2s;
+}
+.img-banner:hover .banner-description{
+   transform: translateY(0%);
+}
+
+/* table styling */
+.table-main{
+    margin-left: 32px ;
+    
+}
+tr,th,td{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+table
+{
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(odd) td{
+    background-color: rgb(184, 192, 194);
+}
+table tbody tr:nth-child(even) td{
+    background-color: rgb(196, 252, 252);
+}

@@ -1,0 +1,29 @@
+.name {
+  font-size: 30px;
+}
+.age {
+  font-size: 30px;
+}
+.username {
+  font-size: 30px;
+  cursor: pointer;
+  color: brown;
+  cursor: pointer;
+}
+.username:hover {
+  font-size: 35px;
+}
+.header {
+  font-size: 30px;
+}
+.btn {
+  height: 35px;
+  width: 150px;
+  margin: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.header {
+  font-size: 25px;
+}

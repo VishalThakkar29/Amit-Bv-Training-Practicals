@@ -1,0 +1,86 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    margin:50px 500px 20px 500px;
+    line-height: 25px;
+    border-radius: 50%;
+    display: flex;
+    /* animation */
+  animation: fadeeffect;
+  animation-duration: 3s;
+  /* animation-end */
+    background-color: darkkhaki;
+    transition: all 1s;
+    transition-timing-function:ease-in;
+    
+}
+.circle-inner {
+    text-align: center;
+    margin: auto;
+    flex: 1;
+}
+.circle:hover{
+    transform: rotate(360deg );
+}
+/* animaation for aboutus */
+@keyframes fadeeffect{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+     100%{
+        transform: translateY(0);
+        opacity: 1;
+     }
+}
+/* card-design  start*/
+.main-card{
+    /* max-width:700px; */
+    height: 300px;
+    margin: 2px 0px;
+    display: flex;
+    /* flex-basis: 30%; */
+    justify-content: space-between;
+
+}
+.card-a{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(33, 128, 98);
+    flex-basis: 30%;
+    margin-left: 50px;
+    animation: fadeeffect;
+    animation-delay: 0.4s;
+    animation-duration: 3s;
+
+  
+}
+.card-b{
+    flex: 1;
+    background-color: rgb(51, 61, 121);
+    flex-basis: 30%;
+    margin-left: 50px;
+    text-align: center;
+    animation: fadeeffect;
+    animation-delay: 0.7s;
+    animation-duration: 3s;
+    
+
+
+}
+.card-c{
+    flex: 1;
+    background-color: rgb(170, 160, 65);
+    flex-basis: 30%;
+    margin-left: 50px;
+    text-align: center;
+    animation: fadeeffect;
+    animation-delay: 1s;
+    animation-duration: 3s;
+
+}
+.footer{
+    /* border-top: 1px solid black; */
+    text-align: center;
+    background-color: #9a9f95;
+}

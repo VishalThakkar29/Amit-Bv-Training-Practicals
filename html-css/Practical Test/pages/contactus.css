@@ -1,0 +1,55 @@
+input[type="email"],
+
+
+select
+
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family:Tahoma, sans-serif;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+input[type="submit"]
+{
+    width: 100%;
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 0;
+    border: 1px solid green;
+}
+form{
+    background-color:lightgray;
+    padding: 30px 40px;
+    border:1px solid grey;
+    border-radius: 8px;
+}
+.hidden-label{
+    position: absolute;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.form-box{
+    max-width: 740px;
+    height: 200px;
+margin:20px 200px 50px 200px;
+}
+.submit-btn{
+margin-left: 150px;
+width: 40%;
+border: 2px solid green;
+border-radius: 10px;
+}
+.label-d{
+    margin-left: 300px;
+    font-size: large;
+    font-weight: 200 ;
+}
+

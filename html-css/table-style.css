@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+    color: #768d49;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+   
+}
+
+table th{
+    text-align: left;
+    border: 2px solid black;
+    background-color: rgb(217, 236, 189);
+}
+table td,  table th{
+    border: 1px solid #869960;
+    border-collapse: none;
+    padding:10px;
+    vertical-align: top;
+
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:100%;
+    
+    
+}
+table tbody tr:nth-child(odd) td{
+    background-color: #eaf1dc;
+}
+.col-item-name{
+    width: 70%;
+}
+.col-price,.col-quantity{
+    width:15%;
+}
+table tr :nth-child(2),
+table tr :nth-child(3){
+    text-align: center;
+}
