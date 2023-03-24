@@ -1,0 +1,9 @@
+.mainCont {
+  height: 300px;
+  width: 500px;
+  background-color: aqua;
+  margin-top: 65px;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  font-size: 50px;
+}
