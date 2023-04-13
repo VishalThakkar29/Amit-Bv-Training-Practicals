@@ -1,0 +1,14 @@
+.cont {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(215, 195, 228);
+  margin: 5px;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background-color: aqua;
+}

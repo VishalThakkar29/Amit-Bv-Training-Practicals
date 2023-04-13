@@ -1,0 +1,20 @@
+.card {
+  height: 500px;
+  width: 600px;
+  background-color: rgb(186, 231, 231);
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+}
+.cont1 {
+  background-color: rgb(209, 198, 198);
+  height: 100%;
+  width: 10%;
+  margin-left: 150px;
+}
+.cont2 {
+  background-color: rgb(170, 192, 224);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
