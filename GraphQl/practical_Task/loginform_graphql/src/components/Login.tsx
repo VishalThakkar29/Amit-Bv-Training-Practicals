@@ -74,11 +74,10 @@ export default function Login() {
         value={password}
         onChange={(event) => setPassword(event.target.value)}
       />
-      {/* <input type="submit" value="Sign me up!" class="sign-up-button"> */}
       <button type="submit" className="sign-up-button">
         Add User
       </button>
-      <p>admin@brainvire.com ----------- Admin@123</p>
+      <h3>Email Id -- admin@brainvire.com ,Password-- Admin@123 </h3>
     </form>
   );
 }
