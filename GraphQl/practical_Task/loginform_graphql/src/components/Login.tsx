@@ -77,7 +77,7 @@ export default function Login() {
       <button type="submit" className="sign-up-button">
         Add User
       </button>
-      <h3>Email Id -- admin@brainvire.com ,Password-- Admin@123</h3>
+      <h3>Email Id -- admin@brainvire.com ,Password-- Admin@123 </h3>
     </form>
   );
 }
