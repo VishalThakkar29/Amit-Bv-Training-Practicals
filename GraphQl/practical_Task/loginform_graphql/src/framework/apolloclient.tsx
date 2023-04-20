@@ -1,15 +1,6 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 import { HttpLink, ApolloLink, from } from "@apollo/client";
-// import { onError } from "@apollo/client/link/error";
-
-// export const client = new ApolloClient({
-//   uri: process.env.REACT_APP_API_GATEWAY_MUTATION,
-//   headers: {
-//     authorization: localStorage.getItem("access_token") || "",
-//   },
-//   cache: new InMemoryCache(),
-// });
 
 const httpLink = new HttpLink({
   uri: process.env.REACT_APP_API_GATEWAY_MUTATION,
@@ -18,6 +9,7 @@ const tokenData = localStorage.getItem("token");
 const authMiddleware = new ApolloLink((operation, forward) => {
   // add the authorization to the headers
 
+  //Extra File Remove
   operation.setContext(({ headers = {} }) => ({
     headers: {
       Authorization: tokenData || null,
